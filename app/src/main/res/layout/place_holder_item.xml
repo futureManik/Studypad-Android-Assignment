@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <ImageView
+        android:id="@+id/imv_placeHolder"
+        android:layout_width="32dp"
+        android:layout_height="32dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/shape_circle_gray" />
+
+    <View
+        android:id="@+id/view_placeHolder"
+        android:layout_width="100dp"
+        android:layout_height="4dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="21dp"
+        android:layout_toEndOf="@+id/imv_placeHolder"
+        android:layout_toRightOf="@+id/imv_placeHolder"
+        android:background="@drawable/shape_line" />
+
+    <View
+        android:layout_width="260dp"
+        android:layout_height="4dp"
+        android:layout_below="@+id/view_placeHolder"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="21dp"
+        android:layout_toEndOf="@+id/imv_placeHolder"
+        android:layout_toRightOf="@+id/imv_placeHolder"
+        android:background="@drawable/shape_line" />
+
+</RelativeLayout>

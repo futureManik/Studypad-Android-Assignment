@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Assignment</string>
+    <string name="title_tranding">Tranding</string>
+    <string name="no_data_found">Sorry, data not available.</string>
+    <string name="title_error">Something went wrong..</string>
+    <string name="sub_title_error">An alien is probably blocking your signal.</string>
+    <string name="btn_label_retry">Retry</string>
+</resources>
